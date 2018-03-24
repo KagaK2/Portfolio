@@ -11,25 +11,25 @@ const Works = () => {
         pic="/img/pj1.png"
         title="Portfolio Website"
         details="My portfolio website, build mostly from scratch with React."
-        link="https://facebook.com/C9.Khanh"
+        link="https://github.com/KagaK2/Portfolio"
       />
       <WorkCard
         pic="/img/pj4.PNG"
         title="Youtube Search"
         details="A simple Youtube search engine made from React using Youtube API."
-        link="https://facebook.com/C9.Khanh"
+        link="https://github.com/KagaK2/YTSearch"
       />
       <WorkCard
         pic="/img/pj2.PNG"
         title="Weather Search"
         details="5 days weather broadcast for cities in the USA."
-        link="https://facebook.com/C9.Khanh"
+        link="https://github.com/KagaK2/Temperature-App"
       />
       <WorkCard
         pic="/img/pj3.PNG"
         title="Blog App"
         details="A simple Blog Application using API to fetch and save posts."
-        link="https://facebook.com/C9.Khanh"
+        link="https://github.com/KagaK2/BlogApp"
       />
       </div>
     </div>
