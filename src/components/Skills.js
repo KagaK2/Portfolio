@@ -41,8 +41,8 @@ const Skills = () => {
         <Skill name="Git" ratio="70%" skillLevel="Great">
           <img src="git.png" width="64" height="64" alt="Git" />
         </Skill>
-        <Skill name="MongoDB" ratio="50%" skillLevel="Learning">
-          <img src="mongo.svg" width="64" height="64" alt="Mongo" />
+        <Skill name="Node" ratio="50%" skillLevel="Learning">
+          <img src="node.svg" width="64" height="64" alt="Mongo" />
         </Skill>
         <Skill name="Express" ratio="50%" skillLevel="Learning">
           <img src="express.svg" width="64" height="64" alt="Express" />
