@@ -17,7 +17,7 @@ const Contact = () => {
             <i className="fa fa-phone fa-2x" />
           </a>
       </div>
-      <div className="contact-credit">Made by Khanh Phan. 2018</div>
+      <div className="contact-credit rbft">Made by Khanh Phan. 2018</div>
     </div>
   );
 };

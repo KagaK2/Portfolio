@@ -3,8 +3,8 @@ import "materialize-css/dist/css/materialize.min.css";
 function Header() {
   return (
     <nav>
-      <div className="nav-wrapper">
-        <a href="#home" className="brand-logo">
+      <div className="nav-wrapper rbft">
+        <a href="#home" className="brand-logo rbft">
           KP
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">

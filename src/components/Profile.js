@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className="profile-pic">
       <img src="/img/me.png" alt="wow" />
-      <h4>Khanh Phan</h4>
+      <h4 className="rbft">Khanh Phan</h4>
       <span>Web Developer</span>
       <div className="contact-profile">
         <a href="https://www.linkedin.com/in/khanh-phan-782b08126/"><i className="fa fa-linkedin fa-2x" /></a>

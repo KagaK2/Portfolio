@@ -4,8 +4,7 @@ const Works = () => {
   return (
     <div className="container works">
       <div className="works-header">
-        <h3>Works - Side Project</h3>
-        <p>Here are my current side projects</p>
+        <h3 className="rbft">Side Projects</h3>
       </div>
       <div className="works-content" >
       <WorkCard
@@ -41,11 +40,11 @@ const WorkCard = props => {
     <div className="work-card">
       <div className="work-card-pic">
         <img src={props.pic} alt="pic" />
-        <span className="work-card-title">{props.title}</span>
+        <span className="work-card-title rbft">{props.title}</span>
       </div>
       <div className="work-card-content">
       <span className="work-card-details">{props.details}</span>
-      <div className="work-card-link">
+      <div className="work-card-link rbft">
         <a href={props.link}>Github</a>
       </div>
       </div>

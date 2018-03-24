@@ -21,9 +21,9 @@ function About() {
         </div>
       </div>
       <div className="container ability-row">
-        <h3 className="ability-row-header">What do I do?</h3>
+        <h3 className="ability-row-header rbft">What do I do?</h3>
         <div className="column">
-          <h4 className="ability-title">Coding</h4>
+          <h4 className="ability-title rbft">Coding</h4>
           <i className="fa fa-code fa-3x" />
           <p className="ability-sum">
             "I make website, web application with HTML, CSS and Javascript. I
@@ -32,7 +32,7 @@ function About() {
           </p>
         </div>
         <div className="column">
-          <h4 className="ability-title">Delivering</h4>
+          <h4 className="ability-title rbft">Delivering</h4>
           <i className="fa fa-envelope fa-3x" />
           <p className="ability-sum">
             "A perfect delivery of a product with my utmost contribution is what
@@ -42,7 +42,7 @@ function About() {
           </p>
         </div>
         <div className="column">
-          <h4 className="ability-title">Improving</h4>
+          <h4 className="ability-title rbft">Improving</h4>
           <i className="fa fa-thumbs-o-up fa-3x" />
           <p className="ability-sum">
             "Self-improvement is a endless road. Everyday I try to learn

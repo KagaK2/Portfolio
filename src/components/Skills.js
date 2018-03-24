@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="skills">
-      <h3 className="skills-header">What do I know?</h3>
+      <h3 className="skills-header rbft">What do I know?</h3>
       <div className="skills-content" abbr="">
         <Skill name="HTML" ratio="80%" skillLevel="Great">
           <img
@@ -56,7 +56,7 @@ const Skill = props => {
   return (
     <div className="skill">
       <div className="skill-pic">{props.children}</div>
-      <div className="skill-name">{props.name}</div>
+      <div className="skill-name rbft">{props.name}</div>
       <ProgressBar ratio={props.ratio} skillLevel={props.skillLevel}/>
     </div>
   );
