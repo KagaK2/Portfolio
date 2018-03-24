@@ -45,9 +45,10 @@
   clear: both;
 }
 .column {
-  float: left;
   width: 33.3%;
+  min-width: 250px;
   text-align: center;
+  display: inline-table;
 }
 /* Clear floats after the columns */
 .ability-row:after {
@@ -69,6 +70,7 @@
 .skill {
   overflow: hidden;
   width: 33%;
+  min-width: 250px;
   margin-left: 5%;
   display: inline-block;
 }
