@@ -7,16 +7,22 @@ function About() {
       <div className="about-me">
         <div className="container">
           <div className="about-me-title">
-            <img src="/img/pic.PNG" alt="pic"/>
+            <img src="/img/pic.PNG" alt="pic" />
           </div>
           <div className="about-me-content">
             My full name is Viet Khanh Phan. In 2015, I came to Finland as a
-            freshman at Metropolia UAS. I'm a full stack web developer who have
-            a desire to create elegant solutions in the least amount of time.
+            freshman at Metropolia UAS. I'm a frontend web developer who have a
+            desire to create elegant solutions in the least amount of time.
             Passionate and serious about my goals, not only do I want to improve
             what I currently have, but I also am eager to learn new exciting
-            things. Also I'm a game lover, feel free to reach out to me if you
-            want to discuss about games too.
+            things.
+            <br/>
+            Currently I'm looking for an opportunity/ challenge to prove
+            myself as a web developer, so contact right away if you're having one for me.
+            <br/>
+             I also love games, especially open world
+            RPG type, feel free to reach out to me if you want to talk about
+            that.
           </div>
         </div>
       </div>

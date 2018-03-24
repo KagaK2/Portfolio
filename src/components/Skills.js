@@ -33,7 +33,7 @@ const Skills = () => {
         <img src="jquery.svg" width="64" height="64" alt="Bootstrap" />
         </Skill>
         <Skill name="React" ratio="65%" skillLevel="Good">
-          <img src="favicon.ico" width="64" height="64" alt="React" />
+          <img src="react.ico" width="64" height="64" alt="React" />
         </Skill>
         <Skill name="Redux" ratio="65%" skillLevel="Good">
           <img src="../redux.svg" width="64" height="64" alt="Redux" />
