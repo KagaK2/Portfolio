@@ -1,0 +1,180 @@
+.nav-wrapper {
+  background-color: #181818;
+}
+.brand-logo {
+  margin-left: 5%;
+}
+#nav-mobile {
+  margin-right: 5%;
+}
+.about {
+  background-color: white;
+}
+.about-me {
+  width: 100%;
+  background-color: #202020;
+  overflow: hidden;
+  color: white;
+  padding-bottom: 50px;
+}
+.about-me-title {
+  overflow: hidden;
+  width: 30%;
+  display: inline;
+}
+.about-me-title > img {
+  height: 300px;
+  width: auto;
+  margin-top: 40px;
+}
+.about-me-content {
+  padding: 70px 0px 50px 40px;
+  height: 100%;
+  width: 70%;
+  float: right;
+}
+.about-me-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.ability-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ability-row {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.skills {
+  text-align: center;
+  background: #202020;
+  padding: 40px 0px;
+  color: white;
+}
+.skill {
+  overflow: hidden;
+  width: 33%;
+  margin-left: 5%;
+  display: inline-block;
+}
+.skill-pic {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-content {
+  margin-top: 50px;
+}
+.contact {
+  position: relative;
+  text-align: center;
+  background-color: #131416;
+  height: 200px;
+  color: lightgray;
+}
+.contact-credit {
+  position: absolute;
+  bottom: 15px;
+  right: 25%;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}
+.contact-icons {
+
+    position: absolute;
+    bottom: 55px;
+    right: 25%;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+}
+.works {
+  padding: 20px 0px 20px 40px;
+}
+.works-header {
+  text-align: center;
+}
+.works-content {
+  padding-left: 30px;
+}
+.work-card {
+  width: 30%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  margin: 7px;
+}
+.work-card:hover {
+  transform: scale(1.05, 1.05);
+}
+.work-card-pic {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.work-card-title {
+  position: absolute;
+  bottom: 8px;
+  left: 25px;
+}
+.work-card-pic > img {
+  width: 100%;
+  height: auto;
+}
+.work-card-content {
+  padding: 25px;
+  text-align: left;
+}
+.work-card-link {
+  margin-top: 60px;
+}
+.progressBar {
+  width: 70%;
+  height: 27px;
+  position: relative;
+  background: rgba(95, 95, 95, 0.3);
+  margin: 20px 0px 20px 115px;
+  text-align: center;
+}
+.skillProgress {
+  height: 27px;
+  position: absolute;
+  background-color: #2e5984;
+}
+.profile-pic {
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+.profile-pic > img {
+  height: 250px;
+  width: auto;
+}
+.contact-profile > a > i {
+  margin: 10px 7px 0px 7px;
+  color: white;
+}
+.contact-icons {
+}
+.contact-icons > a > i {
+  margin: 10px 7px 0px 7px;
+  color: darkgray;
+}
+.works {
+  height: 75%;
+}
